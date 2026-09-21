@@ -1,4 +1,4 @@
-# 🦎 DETECTA
+# DETECTA
 
 ### 🔬 Multi-Model Camouflaged-Object Detection & Animal Recognition
 
