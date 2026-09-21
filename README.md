@@ -488,7 +488,7 @@ Camouflaged-object detection architecture.
 * OpenCV
 * The broader computer-vision research community
 
----
+-----
 
 # 🦎 DETECTA
 
