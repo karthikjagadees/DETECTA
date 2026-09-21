@@ -1,0 +1,20 @@
+# REJECTED SOURCE — archive (6).zip / COD10K-v3
+
+User directed ingestion to use `C:\Users\batka\Downloads\archive (6).zip`.
+
+**Finding:** That archive is **COD10K-v3** (Train 6000 + Test 4000), already present in production
+`Camouflage_Breaker-main\dataset\` and extracted at
+`C:\Users\batka\Downloads\TUKU_COD10K_ARCHIVE_SOURCE\COD10K-v3\`.
+
+**SHA256 sample check:** Train and Test image files from the archive extraction match the
+production COD10K dataset byte-for-byte (exact SHA256 equality on sampled pairs).
+
+**Action taken:** **NO files copied** into `staging/images/` or into train/val/hard_negative.
+
+**Reasons (from the same ingestion instructions):**
+1. archive (6) must not be treated as TUKU-v2 hard-camouflage candidates
+2. Do not duplicate COD10K into TUKU_DATASET_V2
+3. Official Test must stay frozen / isolated (never imported into TUKU-v2)
+4. CAND-001..044 (Wikimedia/USGS/NOAA candidates) do not exist inside archive (6)
+
+See `metadata/ingestion_report.md`.

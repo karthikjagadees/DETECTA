@@ -1,0 +1,111 @@
+﻿# ============================================================
+# DETECTA — Git ignore (safe for GitHub push)
+# Keeps source/config; excludes huge datasets & checkpoints.
+# ============================================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ----- Virtual environments -----
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ----- Secrets / local env -----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ----- IDE / OS -----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.cursor/
+
+# ----- Datasets (too large for GitHub) -----
+dataset/
+crops/
+TUKU_DATASET_V2/
+EXTERNAL_TEST_24/
+**/Train/Image/
+**/Train/GT_Object/
+**/Test/Image/
+**/Test/GT_Object/
+
+# ----- Model weights / checkpoints -----
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.joblib
+saved_models/*
+!saved_models/.gitkeep
+!saved_models/class_mapping.json
+!saved_models/animal_info.json
+models/sinetv2/snapshot/
+models/sinetv2/*.pth
+backup_pre_continue_*/
+**/checkpoints/
+# ----- Runtime outputs / logs -----
+outputs/
+logs/
+*.log
+debug.log
+wandb/
+runs/
+mlruns/
+lightning_logs/
+
+# ----- Archives / media dumps -----
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.mp4
+*.avi
+*.mov
+
+# ----- Notebooks checkpoints -----
+.ipynb_checkpoints/
+
+# ----- Local one-off / cleanup artifacts (optional noise) -----
+PROJECT_CLEANUP_DELETED_FILES.csv
+PROJECT_CLEANUP_CANDIDATES.csv
+PROJECT_CLEANUP_PREDELETE_MANIFEST.json
+PROJECT_CLEANUP_DELETE_RESULT.json
+
+# ----- Streamlit -----
+.streamlit/secrets.toml

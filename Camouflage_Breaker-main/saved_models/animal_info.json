@@ -1,0 +1,485 @@
+{
+  "Ant": {
+    "display_name": "Ant",
+    "category": "Insect",
+    "habitat": "Colonies in soil/wood",
+    "summary": "Social insect; strong collective camouflage in leaf litter.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Bat": {
+    "display_name": "Bat",
+    "category": "Mammal",
+    "habitat": "Caves, forests, urban roosts",
+    "summary": "Nocturnal flyer; often cryptic at rest.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "BatFish": {
+    "display_name": "BatFish",
+    "category": "Fish",
+    "habitat": "Tropical reefs and sandy bottoms",
+    "summary": "Bottom-dweller with cryptic coloration.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Bee": {
+    "display_name": "Bee",
+    "category": "Insect",
+    "habitat": "Flowers, hives, meadows",
+    "summary": "Pollinator; less cryptic but may blend on blooms.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Beetle": {
+    "display_name": "Beetle",
+    "category": "Insect",
+    "habitat": "Forests, soil, vegetation",
+    "summary": "Hard-bodied insect; many species mimic bark/leaves.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Bird": {
+    "display_name": "Bird",
+    "category": "Bird",
+    "habitat": "Wide range of habitats",
+    "summary": "General avian class used when a specific COD bird is unclear.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Bittern": {
+    "display_name": "Bittern",
+    "category": "Bird",
+    "habitat": "Reed beds, wetlands",
+    "summary": "Classic reed camouflage; vertical streaking.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Bug": {
+    "display_name": "Bug",
+    "category": "Insect",
+    "habitat": "Vegetation and ground litter",
+    "summary": "True bugs / small insects with cryptic patterns.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Butterfly": {
+    "display_name": "Butterfly",
+    "category": "Insect",
+    "habitat": "Gardens, forests, meadows",
+    "summary": "Often brightly marked; some species are leaf mimics.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Cat": {
+    "display_name": "Cat",
+    "category": "Mammal",
+    "habitat": "Near humans / varied terrain",
+    "summary": "Felis; coat pattern can break up outline.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Caterpillar": {
+    "display_name": "Caterpillar",
+    "category": "Insect larva",
+    "habitat": "Host plants",
+    "summary": "Many are leaf/twig mimics.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Centipede": {
+    "display_name": "Centipede",
+    "category": "Myriapod",
+    "habitat": "Leaf litter, under rocks",
+    "summary": "Elongated body; soil-colored.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Chameleon": {
+    "display_name": "Chameleon",
+    "category": "Reptile",
+    "habitat": "Trees, shrubs, deserts (species-dependent)",
+    "summary": "Famous color/texture matching; turreted eyes; grasping feet.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Cheetah": {
+    "display_name": "Cheetah",
+    "category": "Mammal",
+    "habitat": "Open savanna",
+    "summary": "Spotted coat for open-country camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Cicada": {
+    "display_name": "Cicada",
+    "category": "Insect",
+    "habitat": "Trees",
+    "summary": "Often bark-colored at rest.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "ClownFish": {
+    "display_name": "ClownFish",
+    "category": "Fish",
+    "habitat": "Anemones on reefs",
+    "summary": "Bold stripes; sheltered among anemones.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Crab": {
+    "display_name": "Crab",
+    "category": "Crustacean",
+    "habitat": "Shores, reefs, mangroves",
+    "summary": "Carapace often matches sand or rock.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Crocodile": {
+    "display_name": "Crocodile",
+    "category": "Reptile",
+    "habitat": "Rivers, wetlands",
+    "summary": "Ambush predator with water-edge camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "CrocodileFish": {
+    "display_name": "CrocodileFish",
+    "category": "Fish",
+    "habitat": "Sandy/rubble seabeds",
+    "summary": "Flatfish-like camouflage on substrate.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Deer": {
+    "display_name": "Deer",
+    "category": "Mammal",
+    "habitat": "Forests, meadows",
+    "summary": "Coat blends with woodland light.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Dog": {
+    "display_name": "Dog",
+    "category": "Mammal",
+    "habitat": "Varied / near humans",
+    "summary": "Domestic canid class in COD labels.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Dragonfly": {
+    "display_name": "Dragonfly",
+    "category": "Insect",
+    "habitat": "Near water",
+    "summary": "Fast aerial hunter; perched forms may be cryptic.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Duck": {
+    "display_name": "Duck",
+    "category": "Bird",
+    "habitat": "Wetlands, lakes",
+    "summary": "Waterfowl; mottled plumage in many females.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Fish": {
+    "display_name": "Fish",
+    "category": "Fish",
+    "habitat": "Aquatic habitats",
+    "summary": "General fish class when species is ambiguous.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Flounder": {
+    "display_name": "Flounder",
+    "category": "Fish",
+    "habitat": "Sandy seabeds",
+    "summary": "Extreme flatfish camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Frog": {
+    "display_name": "Frog",
+    "category": "Amphibian",
+    "habitat": "Wetlands, forests",
+    "summary": "Damp-skin amphibian; many are leaf/ground colored.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "FrogFish": {
+    "display_name": "FrogFish",
+    "category": "Fish",
+    "habitat": "Reefs",
+    "summary": "Anglerfish relative; sponge/rock mimic.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Frogmouth": {
+    "display_name": "Frogmouth",
+    "category": "Bird",
+    "habitat": "Woodland",
+    "summary": "Bark-mimic nocturnal bird.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Gecko": {
+    "display_name": "Gecko",
+    "category": "Reptile",
+    "habitat": "Rocks, trees, walls",
+    "summary": "Nocturnal lizard; mottled skin.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "GhostPipefish": {
+    "display_name": "GhostPipefish",
+    "category": "Fish",
+    "habitat": "Reefs, seagrass",
+    "summary": "Nearly transparent / algae mimics.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Giraffe": {
+    "display_name": "Giraffe",
+    "category": "Mammal",
+    "habitat": "Savanna woodland",
+    "summary": "Tall browser; reticulated coat breaks outline.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Grasshopper": {
+    "display_name": "Grasshopper",
+    "category": "Insect",
+    "habitat": "Grasslands",
+    "summary": "Jumping insect; green/brown camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Grouse": {
+    "display_name": "Grouse",
+    "category": "Bird",
+    "habitat": "Moors, forests",
+    "summary": "Ground bird with mottled plumage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Heron": {
+    "display_name": "Heron",
+    "category": "Bird",
+    "habitat": "Wetlands",
+    "summary": "Wading bird; still-hunting posture.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Human": {
+    "display_name": "Human",
+    "category": "Mammal",
+    "habitat": "Ubiquitous",
+    "summary": "Person class in COD labels.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Kangaroo": {
+    "display_name": "Kangaroo",
+    "category": "Mammal",
+    "habitat": "Australian grasslands/woodland",
+    "summary": "Macropod; coat matches arid scrub.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Katydid": {
+    "display_name": "Katydid",
+    "category": "Insect",
+    "habitat": "Foliage",
+    "summary": "Leaf-mimic orthopteran.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "LeafySeaDragon": {
+    "display_name": "LeafySeaDragon",
+    "category": "Fish",
+    "habitat": "Australian kelp",
+    "summary": "Extreme leaf-like appendages.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Leopard": {
+    "display_name": "Leopard",
+    "category": "Mammal",
+    "habitat": "Forests, savanna",
+    "summary": "Spotted big cat; dappled-light camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Lion": {
+    "display_name": "Lion",
+    "category": "Mammal",
+    "habitat": "Savanna",
+    "summary": "Tawny coat for open grassland.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Lizard": {
+    "display_name": "Lizard",
+    "category": "Reptile",
+    "habitat": "Rocks, scrub, forests",
+    "summary": "General lizard class; many are rock/leaf mimics.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Mantis": {
+    "display_name": "Mantis",
+    "category": "Insect",
+    "habitat": "Vegetation",
+    "summary": "Ambush predator; leaf/flower mimics common.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Mockingbird": {
+    "display_name": "Mockingbird",
+    "category": "Bird",
+    "habitat": "Scrub, gardens",
+    "summary": "Songbird; mottled/gray plumage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Monkey": {
+    "display_name": "Monkey",
+    "category": "Mammal",
+    "habitat": "Forests",
+    "summary": "Primate class in COD labels.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Moth": {
+    "display_name": "Moth",
+    "category": "Insect",
+    "habitat": "Night vegetation",
+    "summary": "Classic bark/leaf wing camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Octopus": {
+    "display_name": "Octopus",
+    "category": "Cephalopod",
+    "habitat": "Reefs, seabeds",
+    "summary": "Active skin camouflage specialist.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Other": {
+    "display_name": "Other",
+    "category": "Unspecified",
+    "habitat": "Varied",
+    "summary": "Fallback COD label when class is unclear.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Owl": {
+    "display_name": "Owl",
+    "category": "Bird",
+    "habitat": "Woodland",
+    "summary": "Nocturnal raptor; bark-like plumage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Owlfly": {
+    "display_name": "Owlfly",
+    "category": "Insect",
+    "habitat": "Vegetation",
+    "summary": "Neuropteran; cryptic at rest.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Pagurian": {
+    "display_name": "Pagurian",
+    "category": "Crustacean",
+    "habitat": "Shores",
+    "summary": "Hermit crab; shell/debris camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Pipefish": {
+    "display_name": "Pipefish",
+    "category": "Fish",
+    "habitat": "Seagrass, reefs",
+    "summary": "Elongated fish; plant mimics.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Rabbit": {
+    "display_name": "Rabbit",
+    "category": "Mammal",
+    "habitat": "Fields, scrub",
+    "summary": "Coat matches dry grass/earth.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Reccoon": {
+    "display_name": "Raccoon",
+    "category": "Mammal",
+    "habitat": "Woodland, urban edge",
+    "summary": "Raccoon (label spelling Reccoon); mask and grizzled fur.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Sciuridae": {
+    "display_name": "Sciuridae",
+    "category": "Mammal",
+    "habitat": "Forests",
+    "summary": "Squirrel family; bark/leaf blend.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "ScorpionFish": {
+    "display_name": "ScorpionFish",
+    "category": "Fish",
+    "habitat": "Reefs, rocky bottoms",
+    "summary": "Venomous; superb rock/sponge mimic.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "SeaHorse": {
+    "display_name": "SeaHorse",
+    "category": "Fish",
+    "habitat": "Seagrass, reefs",
+    "summary": "Upright swimmer; plant-like hold.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Sheep": {
+    "display_name": "Sheep",
+    "category": "Mammal",
+    "habitat": "Pasture",
+    "summary": "Domestic ovine class.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Shrimp": {
+    "display_name": "Shrimp",
+    "category": "Crustacean",
+    "habitat": "Aquatic vegetation/reefs",
+    "summary": "Many are translucent or algae-colored.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Slug": {
+    "display_name": "Slug",
+    "category": "Mollusk",
+    "habitat": "Damp ground, gardens",
+    "summary": "Soft-bodied; soil/leaf tones.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Snake": {
+    "display_name": "Snake",
+    "category": "Reptile",
+    "habitat": "Varied terrain",
+    "summary": "Pattern breaks body outline on ground/leaf litter.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Spider": {
+    "display_name": "Spider",
+    "category": "Arachnid",
+    "habitat": "Vegetation, ground",
+    "summary": "Ambush/orb weavers; cryptic sitters common.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "StarFish": {
+    "display_name": "StarFish",
+    "category": "Echinoderm",
+    "habitat": "Reefs, seabeds",
+    "summary": "Radial body; substrate matching.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "StickInsect": {
+    "display_name": "StickInsect",
+    "category": "Insect",
+    "habitat": "Trees/shrubs",
+    "summary": "Twig mimic specialist.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Stingaree": {
+    "display_name": "Stingaree",
+    "category": "Fish",
+    "habitat": "Sandy bottoms",
+    "summary": "Stingray relative; buried camouflage.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Tiger": {
+    "display_name": "Tiger",
+    "category": "Mammal",
+    "habitat": "Forests, grasslands",
+    "summary": "Striped big cat; vertical light break-up.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Toad": {
+    "display_name": "Toad",
+    "category": "Amphibian",
+    "habitat": "Damp ground",
+    "summary": "Warty skin; earth-colored.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Turtle": {
+    "display_name": "Turtle",
+    "category": "Reptile",
+    "habitat": "Aquatic / terrestrial",
+    "summary": "Shell often algae/mud colored.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Wolf": {
+    "display_name": "Wolf",
+    "category": "Mammal",
+    "habitat": "Forests, tundra",
+    "summary": "Wild canid; coat matches habitat seasonally.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  },
+  "Worm": {
+    "display_name": "Worm",
+    "category": "Annelid",
+    "habitat": "Soil, leaf litter",
+    "summary": "Elongated; soil-colored.",
+    "recognition_tip": "Best viewed with the segmentation crop; hard camouflage may need OpenCLIP refinement."
+  }
+}

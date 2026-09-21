@@ -1,0 +1,9 @@
+{
+  "escnet_root": "/home/batka/ESCNet",
+  "checkpoint": "/home/batka/ESCNet/checkpoints/escnet_finetune/escnet_cod10k_best.pth",
+  "notes": [
+    "Override with env TUKU_ESCNET_ROOT and/or TUKU_ESCNET_CHECKPOINT.",
+    "Do not copy the 275MB checkpoint into the Windows project tree.",
+    "Paths may be Linux (WSL) absolute paths when Streamlit runs under WSL."
+  ]
+}

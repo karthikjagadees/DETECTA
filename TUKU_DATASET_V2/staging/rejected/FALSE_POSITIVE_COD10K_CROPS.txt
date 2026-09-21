@@ -1,0 +1,1 @@
+Animal-name substring search falsely matched COD10K classifier crops (e.g. Flounder/Crocodile in filename) under dataset/crops/Test.\nThese were NOT imported (Official Test / COD10K isolation).\n

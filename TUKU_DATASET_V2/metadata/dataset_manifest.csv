@@ -1,0 +1,1 @@
+sample_id,image_filename,mask_filename,split,source,animal_class,primary_camouflage,secondary_camouflage,environment,occlusion,object_scale,contrast_level,multiple_animals,annotation_status,quality_flag,width,height,mask_foreground_pixels,mask_foreground_ratio,image_sha256,mask_sha256,phash,group_id,notes

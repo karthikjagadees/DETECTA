@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-09-20T19:08:14.165492+00:00",
+  "files": {
+    "C:\\Users\\batka\\Downloads\\TUKU DEEP LEARING\\Camouflage_Breaker-main\\saved_models\\resunet_best.pth": {
+      "sha256": "807098f60128c5c78c9d995aff711f123174962ec793b37c5b8288491a668fbd",
+      "size": 390780356
+    },
+    "C:\\Users\\batka\\Downloads\\TUKU DEEP LEARING\\Camouflage_Breaker-main\\saved_models\\sinetv2\\sinetv2_cod10k_best.pth": {
+      "sha256": "b8618b72260648eea2b1e1ec129813a0e19607cf2dbc5eb2be4355093ad7d949",
+      "size": 108469055
+    },
+    "C:\\Users\\batka\\Downloads\\TUKU DEEP LEARING\\Camouflage_Breaker-main\\saved_models\\classifier_best.pth": {
+      "sha256": "f9bc1e904110b38f347a348f3e86020a7e415db91427886f8d56ceabf0852c11",
+      "size": 295583669
+    },
+    "C:\\Users\\batka\\Downloads\\TUKU DEEP LEARING\\Camouflage_Breaker-main\\saved_models\\class_mapping.json": {
+      "sha256": "b3b4527f4488b4b5de055e4a883511f67402a9694f8d6fbf73afc23bb17d0bfd",
+      "size": 2907
+    },
+    "/home/batka/ESCNet/checkpoints/escnet_finetune/escnet_cod10k_best.pth": {
+      "sha256": "d6ffec2d4d281846bd55016dbed6c8a5a938ba0a126158bef5f9949c92f55e82",
+      "size": 275125123
+    }
+  }
+}

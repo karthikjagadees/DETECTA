@@ -1,0 +1,8 @@
+# Placeholder so the folder exists after clone.
+# Put production .pth weights here locally (ignored by git).
+# Required local files (not in git if missing):
+#   resunet_best.pth
+#   classifier_best.pth
+#   sinetv2/sinetv2_cod10k_best.pth
+#   class_mapping.json
+#   animal_info.json

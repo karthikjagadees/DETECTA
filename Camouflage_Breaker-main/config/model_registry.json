@@ -1,0 +1,57 @@
+{
+  "dataset": "Official COD10K-v3 Test",
+  "test_n": 4000,
+  "threshold": 0.5,
+  "classifier": {
+    "name": "ResNet50",
+    "num_classes": 69,
+    "input_resolution": 224,
+    "checkpoint": "saved_models/classifier_best.pth",
+    "class_mapping": "saved_models/class_mapping.json"
+  },
+  "segmenters": {
+    "ResUNet": {
+      "key": "resunet",
+      "architecture": "ResUNet",
+      "backbone": "ResNet50 encoder",
+      "input_resolution": 352,
+      "checkpoint": "saved_models/resunet_best.pth",
+      "official_test": {
+        "IoU": 0.5710,
+        "Dice": 0.6200,
+        "Precision": 0.7616,
+        "Recall": 0.7207,
+        "mean_inference_s": 0.0189
+      }
+    },
+    "SINet-V2": {
+      "key": "sinetv2",
+      "architecture": "SINet-V2",
+      "backbone": "Res2Net50",
+      "input_resolution": 352,
+      "checkpoint": "saved_models/sinetv2/sinetv2_cod10k_best.pth",
+      "official_test": {
+        "IoU": 0.7425,
+        "Dice": 0.7908,
+        "Precision": 0.8696,
+        "Recall": 0.8298,
+        "mean_inference_s": 0.0321
+      }
+    },
+    "ESCNet": {
+      "key": "escnet",
+      "architecture": "ESCNet",
+      "backbone": "PVT-v2 B4",
+      "input_resolution": 416,
+      "checkpoint_config": "config/escnet.json",
+      "official_test": {
+        "IoU": 0.7892,
+        "Dice": 0.8304,
+        "Precision": 0.9086,
+        "Recall": 0.8608,
+        "mean_inference_s": 0.0991
+      }
+    }
+  },
+  "e2e_limitation_note": "E2E classification results are not presented as a controlled three-model ranking because the historical ResUNet and SINet-V2 evaluations used an older COD10K label parser, while the ESCNet evaluation used the corrected parser."
+}
